@@ -64,7 +64,7 @@ const formatDate = (dateString: string): string => {
       year: 'numeric',
     });
   } catch (error) {
-    console.error('Invalid date:', dateString);
+    console.error('Invalid date:', error);
     return dateString;
   }
 };
